@@ -9,7 +9,10 @@ body {
 h1, h2 {
   font-family: 'VT323', monospace;
   font-size: 2.5em;
+  color: #00ff99;
 }
+
+
 
 .typing {
   width: fit-content;
@@ -18,6 +21,7 @@ h1, h2 {
   white-space: nowrap;
   overflow: hidden;
   animation: typing 3s steps(30) 1s 1 normal both, blink 0.7s step-end infinite;
+  color: rgb(243, 227, 227);
 }
 
 @keyframes typing {
