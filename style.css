@@ -102,6 +102,19 @@ th, td {
   padding: 10px;
 }
 
+table a {
+  color: #00ff99;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: 0.3s;
+}
+
+table a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #00ff99;
+  text-decoration: none;
+}
+
 form {
   display: flex;
   flex-direction: column;
